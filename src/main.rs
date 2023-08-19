@@ -186,15 +186,14 @@ impl Food {
 }
 
 fn main() {
-    // Change this to OpenGL::V2_1 if this fails.
     let opengl = OpenGL::V3_2;
 
     const COLS: u32 = 30;
     const ROWS: u32 = 20;
     const SQUARE_WIDTH: u32 = 20;
 
-    let WIDTH = COLS * SQUARE_WIDTH;
-    let HEIGHT = ROWS * SQUARE_WIDTH;
+    const WIDTH: u32 = COLS * SQUARE_WIDTH;
+    const HEIGHT: u32 = ROWS * SQUARE_WIDTH;
 
     let mut window: GlutinWindow = WindowSettings::new("Snake Game", [WIDTH, HEIGHT])
         .opengl(opengl)
