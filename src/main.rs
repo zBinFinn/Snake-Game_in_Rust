@@ -191,7 +191,6 @@ fn main() {
     const COLS: u32 = 30;
     const ROWS: u32 = 20;
     const SQUARE_WIDTH: u32 = 20;
-
     const WIDTH: u32 = COLS * SQUARE_WIDTH;
     const HEIGHT: u32 = ROWS * SQUARE_WIDTH;
 
